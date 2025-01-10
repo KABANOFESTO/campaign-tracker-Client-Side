@@ -1,8 +1,18 @@
-# React + Vite
+This is the frontend of the campaign management system. It is built using React and allows users to view and interact with campaigns.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technologies Used
 
-Currently, two official plugins are available:
+- **React**: JavaScript library for building user interfaces
+- **Axios**: Promise-based HTTP client for making requests to the backend API
+- **React Router**: Declarative routing for React
+- **Lucide-react**: React icons library
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+Follow these steps to get the frontend up and running:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/KABANOFESTO/campaign-tracker-Client-Side.git
+cd campaign-tracker-Client-Side

@@ -92,14 +92,14 @@ const Footer = () => {
             <div className="col-md-6 text-center text-md-end mb-md-0">
               <i className="fas fa-copyright me-2"></i>
               <a className="text-white" href="#">
-                VubaRide
+                Campaign Tracker
               </a>
               , All rights reserved.
             </div>
             <div className="col-md-6 text-center text-md-start">
               Designed By{" "}
-              <a className="text-white" href="https://htmlcodex.com">
-                Kabano😎
+              <a className="text-white" href="">
+                Kabano Festo😎
               </a>
             </div>
           </div>

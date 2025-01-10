@@ -1,38 +1,3 @@
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-// import { LayoutDashboard, BarChart2, User } from 'lucide-react';
-
-// const Navbar = () => {
-//     return (
-//         <nav className="bg-white shadow-md">
-//             <div className="container mx-auto px-4">
-//                 <div className="flex items-center justify-between h-16">
-//                     <Link to="/" className="text-xl font-bold text-blue-600">
-//                         Campaign Tracker
-//                     </Link>
-//                     <div className="flex space-x-4">
-//                         <Link to="/" className="flex items-center space-x-2 text-gray-700 hover:text-blue-600">
-//                             <LayoutDashboard className="w-5 h-5" />
-//                             <span>Dashboard</span>
-//                         </Link>
-//                         <Link to="/performance" className="flex items-center space-x-2 text-gray-700 hover:text-blue-600">
-//                             <BarChart2 className="w-5 h-5" />
-//                             <span>Performance</span>
-//                         </Link>
-//                         <div className="flex items-center space-x-2 text-gray-700">
-//                             <User className="w-5 h-5" />
-//                             <span>Profile</span>
-//                         </div>
-//                     </div>
-//                 </div>
-//             </div>
-//         </nav>
-//     );
-// };
-
-// export default Navbar;
-
-
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { LayoutDashboard, BarChart2, User } from 'lucide-react';
@@ -68,7 +33,7 @@ const Navbar = () => {
                     <h1 className="m-0" style={{ color: 'gray' }}>
                         <span class="material-symbols-outlined" id="title" >
                             monitoring
-                        </span>Campaign Tracker
+                        </span>
                     </h1>
                 </Link>
                 <button
@@ -85,7 +50,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <ul className="navbar-nav ms-auto py-0">
                         <li className="nav-item">
-                            <Link to="/" className={`nav-link ${isActiveLink("/")}`} id="home">
+                            <Link to="/" className={`nav-link ${isActiveLink("/")}`}>
                                 <LayoutDashboard className="w-5 h-5" />
                                 Home
                             </Link>
