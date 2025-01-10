@@ -1,0 +1,44 @@
+/* dashboard.css */
+.nav-item {
+    background: transparent;
+    color: #4B5563;
+    transition: all 0.2s;
+  }
+  
+  .nav-item:hover {
+    background-color: #F9FAFB;
+  }
+  
+  .active-nav-item {
+    background-color: #EFF6FF;
+    color: #2563EB;
+  }
+  
+  .badge-soft-success {
+    background-color: #DEF7EC;
+    color: #03543F;
+  }
+  
+  .badge-soft-danger {
+    background-color: #FDE2E2;
+    color: #9B1C1C;
+  }
+  
+  .badge-soft-warning {
+    background-color: #FEF3C7;
+    color: #92400E;
+  }
+  
+  .badge-soft-primary {
+    background-color: #E1EFFE;
+    color: #1E429F;
+  }
+  
+  .card {
+    border: none;
+    transition: all 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-2px);
+  }

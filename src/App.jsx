@@ -4,11 +4,15 @@ import './App.css';
 import Navbar from './components/Navbar.jsx';
 import Spinner from './components/Spinner.jsx';
 import Home from './components/Home.jsx';
+import CampaignDetails from './pages/CampaignDetails';
+import PerformanceStats from './pages/PerformanceStats';
 import Footer from './components/Footer.jsx';
 import Login from './pages/Login.jsx';
 import Register from './pages/Register.jsx';
 import Forgot from './pages/Forgot.jsx';
 import ResetPassword from './pages/ResetPassword.jsx';
+import CampaignDashboard from './pages/CampaignDashboard.jsx';
+
 
 
 function App() {
@@ -22,7 +26,7 @@ function App() {
   }, []);
 
   const isLoginOrRegisterPage =
-    window.location.pathname === '/login' || window.location.pathname === '/signup';
+    window.location.pathname === '/login' || window.location.pathname === '/signup' || window.location.pathname === '/camp';
 
   return (
     <Router>
@@ -40,6 +44,9 @@ function App() {
                 <Route path="/signup" element={<Register />} />
                 <Route path="/forgot" element={<Forgot />} />
                 <Route path="/reset" element={<ResetPassword />} />
+                <Route path="/CampaignDetails" element={<CampaignDetails />} />
+                <Route path="/Performance" element={<PerformanceStats />} />
+                <Route path="/camp" element={<CampaignDashboard />} />
               </Routes>
             </div>
             {!isLoginOrRegisterPage && <Footer />}
