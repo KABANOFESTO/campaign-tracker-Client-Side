@@ -26,8 +26,7 @@ const Navbar = () => {
     return (
         <div className="container-fluid position-relative p-0">
             <nav
-                className={`navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 fixed-top ${isScrolled ? "bg-transparent navbar-scrolled" : "bg-white"
-                    }`}
+                className={`navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 fixed-top ${isScrolled ? "bg-white shadow" : "bg-white"}`}
             >
                 <Link to="/" className="navbar-brand p-0" >
                     <h1 className="m-0" style={{ color: 'gray' }}>

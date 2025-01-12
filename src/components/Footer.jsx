@@ -55,19 +55,13 @@ const Footer = () => {
               <div className="footer-item d-flex flex-column">
                 <h4 className="mb-4 text-white">Quick Link</h4>
                 <a href="#">
-                  <i className="fas fa-angle-right me-2"></i> About
+                  <i className="fas fa-angle-right me-2"></i> Home
                 </a>
-                <a href="#">
-                  <i className="fas fa-angle-right me-2"></i> Service
+                <a href="/perfomance">
+                  <i className="fas fa-angle-right me-2"></i> Perfomance
                 </a>
-                <a href="#">
-                  <i className="fas fa-angle-right me-2"></i> Price
-                </a>
-                <a href="#">
-                  <i className="fas fa-angle-right me-2"></i> Gallery
-                </a>
-                <a href="#">
-                  <i className="fas fa-angle-right me-2"></i> Contact Us
+                <a href="/register">
+                  <i className="fas fa-angle-right me-2"></i> Account
                 </a>
               </div>
             </div>
